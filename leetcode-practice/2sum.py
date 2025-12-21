@@ -27,6 +27,7 @@ loop_count = 0
 
 # 2 way : O(n) using hashmap
 hashmap = {}
+
 for i in range(len(nums)):
     if (nums[i]) in hashmap:
         get_index = hashmap[nums[i]]
